@@ -12,7 +12,8 @@ You will be quized on Anime
 Time will be deducted if answered incorrectly
 scored will be saved by the amount of correct choices and time left
 
-
+![Start of Quiz](./assets/images/begquiz.PNG)
+![Quiz](./assets/images/quiz.PNG)
 
 ## Credits 
 
