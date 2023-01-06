@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+.quiz, .scores {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.2s ease;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    margin: 25px 30px;
+    color: black;
+    line-height: 20px;
+    font-size: larger;
+    text-align: center;
+}
+
+.landing {
+    text-align: center;
+}
+
+.scoresHeader {
+    position: absolute;
+    font-size: large;
+}
+
+.timer {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: large;
+    background-color: white;
+    border-radius: 5px;
+    padding: 9px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.timer p {
+    margin: 5px 5px;
+
+}
+
+button {
+    font-size: 25px;
+    font-weight: 500;
+    color: red;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a button {
+    background-color: red;
+    font-weight: 700;
+    color: black;
+    font-size: larger;
+}
+
+a button:hover {
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.options button {
+    display: flexbox;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+    margin-bottom: -1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.scores a button {
+    font-size: 13.3333px;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: 2px solid #001429;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#submit-score {
+    padding: 10px;
+}
+
+input[type="text"] {
+    font-size: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.feedback {
+    position: absolute;
+    left: 50%;
+    top: 71%;
+    transform: translate(-50%,-50%);
+    font-style: bold;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 15px;
+    color: #fff;
+}
+
+ol {
+    max-height: 600px;
+    overflow: auto;
+}
+
+#highscores {
+    margin-left: -40px;
+}
+
+li {
+    padding: 5px;
+    list-style: decimal inside none;
+}
+
+
+
